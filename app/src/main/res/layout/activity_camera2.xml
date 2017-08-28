@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_camera2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.tongxiwen.camerawallpaper.Camera2Activity">
+
+    <com.example.tongxiwen.camerawallpaper.CameraBackView.CameraBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_margin="24dp"
+                    android:layout_weight="1"
+                    android:background="#88599887"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"/>
+
+            <LinearLayout
+                    android:background="#88773399"
+                    android:layout_margin="24dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"/>
+
+        </LinearLayout>
+    </com.example.tongxiwen.camerawallpaper.CameraBackView.CameraBackground>
+</RelativeLayout>
